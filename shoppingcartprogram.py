@@ -6,7 +6,7 @@ total = 0
 
 
 while True:
-    food = input('Enter a food to buy(q to quit)')
+    food = input('Enter a food to buy(q to quit): ')
     if food =='q':
         break
     else:
