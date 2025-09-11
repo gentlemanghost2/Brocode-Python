@@ -1,13 +1,13 @@
-pi = 3.14159
+pi = 3.1459
 
-def squre(x):
-    return x ** 2 
+def square(x):
+    return x ** 2
 
 def cube(x):
-    return x ** 3 
+    return x ** 3
 
-def circumference(radius):
-    2 * pi * radius
-    
-def area(radius):
-    return pi *  radius ** 2
+def circumference(r):
+    return 2 * pi * r
+
+def area(r):
+    return pi * r ** 2
